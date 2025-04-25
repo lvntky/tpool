@@ -1,6 +1,7 @@
-<div style="display: flex; justify-content: center;">
-  <img src="./docs/logo.png" alt="logo" style="width: 25%;" />
+<div style="background: white; display: inline-block; padding: 10px; border-radius: 8px;">
+  <img src="./docs/logo.png" alt="logo" style="width: 25%; display: block; margin: 0 auto;" />
 </div>
+
 
 
 **tpool** is a minimal, efficient, and portable **thread pool library written in C (C11)**. It allows developers to manage a pool of worker threads that execute tasks concurrently, providing a lightweight way to parallelize CPU-bound and I/O-bound workloads in C projects.
