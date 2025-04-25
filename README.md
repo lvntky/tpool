@@ -1,4 +1,6 @@
-# tpool
+<img src="./docs/logo.png"
+     alt="logo"
+     style="display: block; margin-left: auto; margin-right: auto; width: 25%;" />
 
 **tpool** is a minimal, efficient, and portable **thread pool library written in C (C11)**. It allows developers to manage a pool of worker threads that execute tasks concurrently, providing a lightweight way to parallelize CPU-bound and I/O-bound workloads in C projects.
 
