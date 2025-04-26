@@ -36,6 +36,9 @@ install(FILES ${CMAKE_BINARY_DIR}/tpool.pc DESTINATION lib/pkgconfig)
 enable_testing()
 
 # Only add tests if cmocka is found
-find_package(cmocka REQUIRED)
-
-add_subdirectory(tests)
+find_package(cmocka)
+if(cmocka_FOUND)
+    add_subdirectory(tests)
+else()
+    message(WARNING "cmocka not found, skipping unit tests")
+endif()
