@@ -31,3 +31,11 @@ configure_file(
 )
 
 install(FILES ${CMAKE_BINARY_DIR}/tpool.pc DESTINATION lib/pkgconfig)
+
+# --- Testing Section ---
+enable_testing()
+
+# Only add tests if cmocka is found
+find_package(cmocka REQUIRED)
+
+add_subdirectory(tests)
