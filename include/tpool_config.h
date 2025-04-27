@@ -11,6 +11,8 @@
 #ifndef TPOOL_CONFIG_H_
 #define TPOOL_CONFIG_H_
 
-#define C_WORKER_SIZE 4096 
+#define C_WORKER_SIZE 4096
+#define C_TPOOL_SUCCESS 1
+#define C_TPOOL_FAIL -1
 
 #endif // TPOOL_CONFIG_H_
